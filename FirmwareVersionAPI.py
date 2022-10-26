@@ -6,7 +6,7 @@ import time
 class FirmwareAPI():
     def __init__(self):
         self.access_token = ""
-        self.base_url = "http://117.52.171.85"
+        self.base_url = "http://localhost"
 
     def query(self, uri, data = {}):
         header = {}
